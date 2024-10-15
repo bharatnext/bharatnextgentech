@@ -14,7 +14,7 @@
 
   <!-- ** Basic Page Needs ** -->
   <meta charset="utf-8">
-  <title>BharatNextGenTech Solutions</title>
+  <title>BharatNextGenTech Solutions || Contact Us</title>
 
   <!-- ** Mobile Specific Metas ** -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
