@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="copyright">
-                        Copyright &copy; 2020, Designed &amp; Developed by BharatNextGenTech.
+                        Copyright &copy; Designed &amp; Developed by BharatNextGenTech.
                     </div>
                 </div>
                 <div class="col-lg-6 text-left text-lg-right d-none">
