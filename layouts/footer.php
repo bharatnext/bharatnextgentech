@@ -40,8 +40,9 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="widget">
                     <div class="logo mb-4">
-                        <h3>
-                            BharatNextGen<span>Tech.</span></h3>
+                        <!-- <h3>
+                            BharatNextGen<span>Tech.</span></h3> -->
+                            <img src="images/bharatnextgentech.png" alt="Bharatnextgentech" class="img-fluid" width="150px">
                     </div>
                     <h6><a href="mailto:info@bharatnextgentech.com">info@bharatnextgenetech.com</a></h6>
                     <a href="tel:+91 72850 61176"><span class="text-color h4">+91 97247 36947</span></a>

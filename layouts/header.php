@@ -26,8 +26,8 @@
 					<div class="col-lg-12">
 						<nav class="navbar navbar-expand-lg px-0 py-4">
 							<a class="navbar-brand" href="index.php">
-
-								BharatNextGen<span>Tech.</span>
+<img src="images/bharatnextgentech.png" alt="Bharatnextgentech" class="img-fluid" width="160px">
+								<!-- BharatNextGen<span>Tech.</span> -->
 							</a>
 
 							<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
