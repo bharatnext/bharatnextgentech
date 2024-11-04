@@ -12,7 +12,7 @@
 					</div>
 					<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
 						<div class="header-top-info mb-2 mb-md-0">
-							<a href="tel:+91 72850 61176">Call Us : <span>+91 72850 61176</span></a>
+							<a href="tel:+91 72850 61176">Call Us : <span>+91 97247 36947</span></a>
 							<a href="mailto:info@bharatnextgentech.com"><i class="fas fa-envelope mr-2"></i><span>info@bharatnextgentech.com</span></a>
 						</div>
 					</div>
@@ -76,6 +76,7 @@
 										</ul>
 									</li>
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>
+									<li class="nav-item @@blog"><a class="nav-link" href="blog.php">Blog</a></li>
 								</ul>
 
 								<div class="my-2 my-md-0 ml-lg-4 text-center">

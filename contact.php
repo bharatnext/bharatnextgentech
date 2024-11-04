@@ -87,7 +87,7 @@
                 <i class="ti-email mr-3"></i>Email: info@bharatnextgenetech.com
               </li>
               <li>
-                <i class="ti-mobile mr-3"></i>Phone:+91 72850 61176
+                <i class="ti-mobile mr-3"></i>Phone:+91 97247 36947
               </li>
             </ul>
 
