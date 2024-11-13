@@ -35,8 +35,6 @@
 	include('layouts/header.php');
 	?>
 
-
-
 	<!-- Slider Start -->
 	<section class="slider">
 		<div class="container">
@@ -222,7 +220,7 @@
 						<span class="h6 text-color">We create for you</span>
 						<h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
 						<p class="lead mb-4">Have any project on mind? For immidiate support :</p>
-						<h3><i class="ti-mobile mr-3 text-color"></i>+91 72850 61176</h3>
+						<h3><i class="ti-mobile mr-3 text-color"></i>+91 97247 36947</h3>
 					</div>
 				</div>
 			</div>
