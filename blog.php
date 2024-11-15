@@ -48,7 +48,7 @@
     <!-- Blog Section -->
     <div class="container-fluid">
         <div class="container">
-            <h1 class="mt-5">Why App Development is Essential in Today’s Digital World?</h1>
+            <h1 class="mt-5">Why App Development is Imporatant ?</h1>
 
             <p class="py-4">
                 In today's fast-paced, technology-driven world, mobile applications (apps) have become an integral part
@@ -59,6 +59,10 @@
                 development is essential, not just for businesses but for users and developers too.
             </p>
 
+            <img class="img-fluid pb-5 mx-auto " src="images/blog/appdevelopment.jpg" alt="App development">
+
+
+            
             <h2>1. Enhancing User Experience and Convenience</h2>
             <p>The primary reason behind the surge in app development is the enhanced user experience that mobile
                 applications provide. Apps are designed with specific goals in mind and optimized for quick and easy
