@@ -35,7 +35,6 @@
     <title>Why App Development is Essential in Today’s Digital World</title>
 
     <!-- ** Favicon ** -->
-    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
 
     <!-- ** External Stylesheets and Scripts ** -->
     <?php include('layouts/headscript.php'); ?>
@@ -44,6 +43,26 @@
 <body>
 
     <?php include('layouts/header.php'); ?>
+
+<!-- Blog header page -->
+	<section class="page-title bg-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="block text-center">
+						<span class="text-white">Blog details</span>
+						<h1 class="text-capitalize mb-4 text-lg">Why App Development is Imporatant?</h1>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
+							<li class="list-inline-item"><span class="text-white">/</span></li>
+							<li class="list-inline-item text-white-50">App Development</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 
     <!-- Blog Section -->
     <div class="container-fluid">
