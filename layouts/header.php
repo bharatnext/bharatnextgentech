@@ -76,7 +76,7 @@
 										</ul>
 									</li>
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>
-									<li class="nav-item @@blog"><a class="nav-link" href="blog.php">Blog</a></li>
+									<li class="nav-item @@blog"><a class="nav-link" href="blog-grid.php">Blog</a></li>
 								</ul>
 
 								<div class="my-2 my-md-0 ml-lg-4 text-center">
