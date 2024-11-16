@@ -45,7 +45,7 @@
                             <img src="images/bharatnextgentech.png" alt="Bharatnextgentech" class="img-fluid" width="150px">
                     </div>
                     <h6><a href="mailto:info@bharatnextgentech.com">info@bharatnextgenetech.com</a></h6>
-                    <a href="tel:+91 72850 61176"><span class="text-color h4">+91 97247 36947</span></a>
+                    <a href="tel:+91 97247 36947"><span class="text-color h4">+91 97247 36947</span></a>
                 </div>
             </div>
         </div>

@@ -12,4 +12,4 @@
 <link rel="stylesheet" href="css/style.css">
 
 <!--Favicon-->
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/bharatnextgentech-favicon.png" type="image/png" sizes="16x16">
