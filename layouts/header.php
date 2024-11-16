@@ -10,7 +10,7 @@
 							<a href="https://github.com/themefisher/" aria-label="github"><i class="fab fa-github"></i></a>
 						</div>
 					</div>
-					<div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
+					<div class="col-lg-10 col-md-8 text-center text-md-right">
 						<div class="header-top-info mb-2 mb-md-0">
 							<a href="tel:+91 72850 61176">Call Us : <span>+91 97247 36947</span></a>
 							<a href="mailto:info@bharatnextgentech.com"><i class="fas fa-envelope mr-2"></i><span>info@bharatnextgentech.com</span></a>
@@ -24,9 +24,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<nav class="navbar navbar-expand-lg px-0 py-4">
+						<nav class="navbar navbar-expand-lg px-0 py-3">
 							<a class="navbar-brand" href="index.php">
-<img src="images/bharatnextgentech.png" alt="Bharatnextgentech" class="img-fluid" width="160px">
+<img src="images/bharatnextgentech-light.png" alt="Bharatnextgentech" class="img-fluid" width="170px">
 								<!-- BharatNextGen<span>Tech.</span> -->
 							</a>
 
