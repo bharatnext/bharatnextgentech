@@ -136,7 +136,7 @@ input[type="tel"]:focus {
 .btn-small,
 .btn-transparent {
   background: rgb(247, 87, 87);
-  color: black;
+  color: #fff;
   transition: all 0.2s ease;
 }
 
@@ -144,7 +144,7 @@ input[type="tel"]:focus {
 .btn-small:hover,
 .btn-transparent:hover {
   background: #f52626;
-  color: black;
+  color: #fff;
 }
 
 .btn-solid-border {
@@ -360,11 +360,11 @@ a:focus {
 }
 
 .page-title .block h1 {
-  color: black;
+  color: #fff;
 }
 
 .page-title .block p {
-  color: black;
+  color: #fff;
 }
 
 .page-wrapper {
@@ -395,7 +395,7 @@ a:focus {
   right: 0;
   width: 100%;
   height: 100%;
-  color: black;
+  color: #fff;
   background: rgba(0, 0, 0, 0.6);
   padding-left: 44px;
   padding-top: 140px;
@@ -414,7 +414,7 @@ a:focus {
   bottom: 0;
   width: 75px;
   height: 3px;
-  background: black;
+  background: #fff;
 }
 
 #wrapper-work ul li .items-text p {
@@ -441,7 +441,7 @@ a:focus {
 }
 
 #navbar {
-  background: white;
+  background: rgb(34, 35, 40);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -458,7 +458,7 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: black;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -473,7 +473,7 @@ a:focus {
 
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
-  color: black;
+  color: #fff;
 }
 
 @media (max-width: 992px) {
@@ -483,7 +483,7 @@ a:focus {
 }
 
 .header-top {
-  background: white;
+  background: rgb(34, 35, 40);
   color: #919194;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -514,7 +514,7 @@ a:focus {
 }
 
 .header-top .header-top-info a span {
-  color: black;
+  color: #fff;
 }
 
 .header-top .header-top-info a {
@@ -525,7 +525,7 @@ a:focus {
 .navbar-toggler {
   padding: 0;
   font-size: 1.5rem;
-  color: black;
+  color: #fff;
 }
 
 .navbar-toggler:focus {
@@ -533,7 +533,7 @@ a:focus {
 }
 
 .navbar-brand {
-  color: black;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -611,7 +611,7 @@ a:focus {
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgb(247, 87, 87);
-  color: black;
+  color: #fff;
 }
 
 ul.dropdown-menu li {
@@ -677,7 +677,7 @@ ul.dropdown-menu li {
   font-size: 70px;
   line-height: 80px;
   font-weight: 600;
-  color: black;
+  color: #fff;
 }
 
 .slider .block p {
@@ -789,7 +789,7 @@ ul.dropdown-menu li {
 
 .team-img-hover li a {
   display: inline-block;
-  color: black;
+  color: #fff;
   width: 50px;
   height: 50px;
   font-size: 20px;
@@ -1200,7 +1200,7 @@ h3.quote::before {
 }
 
 .single-blog {
-  background-color: black;
+  background-color: #fff;
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -1397,7 +1397,7 @@ h3.quote::before {
 }
 
 .widget.widget-tag ul li a:hover {
-  color: black;
+  color: #fff;
   background: rgb(247, 87, 87);
   border: 1px solid rgb(247, 87, 87);
 }
@@ -1497,7 +1497,7 @@ h3.quote::before {
 
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: black;
+    color: #fff;
   }
 
   .bg-about {
@@ -1526,7 +1526,7 @@ h3.quote::before {
   }
 
   .navbar-toggler {
-    color: black;
+    color: #fff;
   }
 
   .slider .block h1 {
@@ -1570,7 +1570,7 @@ h3.quote::before {
   }
 
   .navbar-toggler {
-    color: black;
+    color: #fff;
   }
 
   .content-title {
