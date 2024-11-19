@@ -13,7 +13,7 @@
 					<div class="col-lg-10 col-md-8 text-center text-md-right">
 						<div class="header-top-info mb-2 mb-md-0">
 							<a href="tel:+91 97247 36947">Call Us : <span>+91 97247 36947</span></a>
-							<a href="mailto:info@bharatnextgentech.com"><i class="fas fa-envelope mr-2"></i><span>info@bharatnextgentech.com</span></a>
+							<a href="mailto:bharatnextgentech@gmail.com"><i class="fas fa-envelope mr-2"></i><span>bharatnextgentech@gmail.com</span></a>
 						</div>
 					</div>
 				</div>
