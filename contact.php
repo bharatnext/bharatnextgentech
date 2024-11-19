@@ -84,7 +84,7 @@
                 <i class="ti-direction mr-3"></i>Sardar Chowk, Opp. Alfa Training Center, Chitaliya Road, Jasdan:- 360050, Rajkot, Gujarat, India
               </li>
               <li>
-                <i class="ti-email mr-3"></i>Email: info@bharatnextgenetech.com
+                <i class="ti-email mr-3"></i>Email: bharatnextgentech@gmail.com
               </li>
               <li>
                 <i class="ti-mobile mr-3"></i>Phone:+91 97247 36947

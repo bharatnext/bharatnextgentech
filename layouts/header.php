@@ -26,7 +26,7 @@
 					<div class="col-lg-12">
 						<nav class="navbar navbar-expand-lg px-0 py-3">
 							<a class="navbar-brand" href="index.php">
-<img src="images/bharatnextgentech-light.png" alt="Bharatnextgentech" class="img-fluid" width="170px">
+								<img src="images/bharatnextgentech-light.png" alt="Bharatnextgentech" class="img-fluid" width="170px">
 								<!-- BharatNextGen<span>Tech.</span> -->
 							</a>
 
@@ -76,7 +76,7 @@
 										</ul>
 									</li>
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>
-									<li class="nav-item @@blog"><a class="nav-link" href="blog-grid.php">Blog</a></li>
+									<!-- <li class="nav-item @@blog"><a class="nav-link" href="blog-grid.php">Blogs</a></li> -->
 								</ul>
 
 								<div class="my-2 my-md-0 ml-lg-4 text-center">
