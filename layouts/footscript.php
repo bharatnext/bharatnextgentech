@@ -24,3 +24,15 @@ Essential Scripts
         window.location.href = window.location.href.replace('#!', '');
     }
 </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8NCCPSK3EH"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-8NCCPSK3EH');
+</script>
