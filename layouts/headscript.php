@@ -11,5 +11,9 @@
 <!-- Main Stylesheet -->
 <link rel="stylesheet" href="css/style.css">
 
-<!--Favicon-->
+<!-- Favicon -->
 <link rel="icon" href="images/bharatnextgentech-favicon.png" type="image/png" sizes="16x16">
+
+<?php
+include("layouts/meta.php");
+?>

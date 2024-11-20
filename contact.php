@@ -12,20 +12,10 @@
 
 <head>
 
-  <!-- ** Basic Page Needs ** -->
-  <meta charset="utf-8">
-  <title>BharatNextGenTech Solutions || Contact Us</title>
-
-  <!-- ** Mobile Specific Metas ** -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="BharatNextGenTech">
-  <meta name="generator" content="BharatNextGenTech Software & Website Development Services">
-
-  <!-- theme meta -->
-  <meta name="theme-name" content="BharatNextGenTech" />
-
   <?php
+  $meta_title = "Contact Us | BharatNextGenTech - Let's Connect";
+  $meta_description = "Get in touch with BharatNextGenTech for inquiries, support, or collaborations. Reach out to our team for innovative mobile app solutions and professional guidance.";
+  $meta_keywords = "contact BharatNextGenTech, get in touch, mobile app solutions, tech support, professional collaboration, contact details BharatNextGenTech";
   include('layouts/headscript.php');
   ?>
 </head>

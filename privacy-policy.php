@@ -11,20 +11,11 @@
 
 <head>
 
-    <!-- ** Basic Page Needs ** -->
-    <meta charset="utf-8">
-    <title>BharatNextGenTech Solutions</title>
-
-    <!-- ** Mobile Specific Metas ** -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-    <meta name="author" content="BharatNextGenTech">
-    <meta name="generator" content="BharatNextGenTech Software & Website Development Services">
-
-    <!-- theme meta -->
-    <meta name="theme-name" content="BharatNextGenTech" />
-
     <?php
+    $meta_title = "Privacy Policy | BharatNextGenTech - Protecting Your Privacy";
+    $meta_description = "Read the Privacy Policy of BharatNextGenTech. Learn how we collect, use, and protect your personal information when using our services.";
+    $meta_keywords = "privacy policy BharatNextGenTech, data protection, user privacy, information security, cookies policy";
+
     include('layouts/headscript.php');
     ?>
 

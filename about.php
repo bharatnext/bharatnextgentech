@@ -5,20 +5,12 @@
 
 <head>
 
-	<!-- ** Basic Page Needs ** -->
-	<meta charset="utf-8">
-	<title>BharatNextGenTech Solutions</title>
-
-	<!-- ** Mobile Specific Metas ** -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-	<meta name="author" content="BharatNextGenTech">
-	<meta name="generator" content="BharatNextGenTech Software & Website Development Services">
-
-	<!-- theme meta -->
-	<meta name="theme-name" content="BharatNextGenTech" />
 
 	<?php
+	$meta_title = "About Us | BharatNextGenTech - Innovative App Development Solutions";
+	$meta_description = "Discover BharatNextGenTech's mission and vision as a leader in mobile app development and scalable software solutions. Meet our expert team driving innovative digital growth.";
+	$meta_keywords = "about BharatNextGenTech, app development experts, innovative tech solutions, mobile development, digital growth, scalable software solutions";
+
 	include('layouts/headscript.php');
 	?>
 </head>
