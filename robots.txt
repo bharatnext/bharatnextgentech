@@ -1,13 +1,6 @@
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-content/plugins/
-Disallow: /wp-content/themes/
-Disallow: /pricing.php
-Disallow: /blog1.php
-Disallow: /blog-sidebar.php
-Disallow: /blog-grid.php
-Disallow: /project.php
-Disallow: /about.php
+
+#Disallow: /about.php
 
 Disallow: /#!*
 
