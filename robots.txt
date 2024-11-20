@@ -8,4 +8,7 @@ Disallow: /blog-sidebar.php
 Disallow: /blog-grid.php
 Disallow: /project.php
 
+Disallow: /#!*
+
+
 Sitemap: https://bharatnextgentech.com/sitemap.xml

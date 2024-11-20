@@ -18,3 +18,9 @@ Essential Scripts
 <script src="plugins/google-map/map.js" defer></script>
 
 <script src="js/script.js"></script>
+
+<script>
+    if (window.location.hash.indexOf('!') > -1) {
+        window.location.href = window.location.href.replace('#!', '');
+    }
+</script>
