@@ -1,6 +1,6 @@
 User-agent: *
+Disallow:
 
-#Disallow: /
 #Disallow: /about.php
 
 Disallow: /#!*
