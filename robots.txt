@@ -1,4 +1,7 @@
 User-agent: *
+User-agent: Googlebot
+Allow: /
+
 Disallow: /readme.txt
 Disallow: /blog1.php
 
