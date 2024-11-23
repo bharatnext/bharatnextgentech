@@ -32,9 +32,7 @@
 				"email": "bharatnextgentech@gmail.com"
 			},
 			"sameAs": [
-				"https://www.facebook.com/themefisher",
-				"https://twitter.com/themefisher",
-				"https://github.com/themefisher/"
+				"https://www.linkedin.com/company/bharatnextgentech/",
 			],
 			"founder": "BharatNextGenTech",
 			"services": [{
