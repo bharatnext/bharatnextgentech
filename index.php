@@ -13,6 +13,64 @@
 	include('layouts/headscript.php');
 	?>
 
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "BharatNextGenTech",
+			"url": "https://bharatnextgentech.com/",
+			"logo": "https://bharatnextgentech.com/images/bharatnextgentech-light.png",
+			"description": "BharatNextGenTech provides cutting-edge mobile app development and software solutions for scalable and innovative digital growth.",
+			"address": {
+				"@type": "PostalAddress",
+				"addressCountry": "India"
+			},
+			"contactPoint": {
+				"@type": "ContactPoint",
+				"telephone": "+91 97247 36947",
+				"contactType": "Customer Service",
+				"email": "bharatnextgentech@gmail.com"
+			},
+			"sameAs": [
+				"https://www.facebook.com/themefisher",
+				"https://twitter.com/themefisher",
+				"https://github.com/themefisher/"
+			],
+			"founder": "BharatNextGenTech",
+			"services": [{
+					"@type": "Service",
+					"name": "Mobile App Development",
+					"description": "Custom mobile applications tailored to your business needs."
+				},
+				{
+					"@type": "Service",
+					"name": "Website Development",
+					"description": "Modern, fully responsive websites for a seamless user experience."
+				},
+				{
+					"@type": "Service",
+					"name": "Laravel Framework Development",
+					"description": "Expert Laravel development services for powerful web applications."
+				},
+				{
+					"@type": "Service",
+					"name": "Logo Design",
+					"description": "Professional logo design to enhance brand identity."
+				},
+				{
+					"@type": "Service",
+					"name": "Android Development",
+					"description": "Custom Android app development for innovative mobile solutions."
+				},
+				{
+					"@type": "Service",
+					"name": "iOS Development",
+					"description": "High-quality iOS app development for smooth Apple device experiences."
+				}
+			]
+		}
+	</script>
+
 </head>
 
 <body>
