@@ -76,6 +76,7 @@
 										</ul>
 									</li>
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>
+									<li class="nav-item @@contact"><a class="nav-link" href="missionvission.php">Mission & Vision</a></li>
 									<!-- <li class="nav-item @@blog"><a class="nav-link" href="blog-grid.php">Blogs</a></li> -->
 								</ul>
 
