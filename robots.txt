@@ -1,9 +1,4 @@
 User-agent: *
-Disallow:
-
-#Disallow: /about.php
-
-Disallow: /#!*
 Disallow: /readme.txt
 Disallow: /blog1.php
 
