@@ -18,6 +18,10 @@
   $meta_keywords = "contact BharatNextGenTech, get in touch, mobile app solutions, tech support, professional collaboration, contact details BharatNextGenTech";
   include('layouts/headscript.php');
   ?>
+
+
+
+
 </head>
 
 <body>
