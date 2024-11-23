@@ -19,9 +19,11 @@
 
                     <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="about.php" class="d-none">About</a></li>
-                        <li><a href="service.php" class="d-none">Services</a></li>
-
+                        
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="contact.php">Contact</a></li>
+                        <li><a href="service.php">Services</a></li>
+                        <li><a href="missionvission.php">Mission & Vision</a></li>
                     </ul>
                 </div>
             </div>
