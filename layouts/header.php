@@ -56,25 +56,8 @@
 											</li>
 										</ul>
 									</li>
-									<li class="nav-item d-none @@service"><a class="nav-link" href="service.php">Services</a></li>
-									<li class="nav-item d-none @@project"><a class="nav-link" href="project.php">Portfolio</a></li>
-									<li class="nav-item  d-none dropdown @@blog">
-										<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i class="fas fa-chevron-down small"></i></a>
-										<ul class="dropdown-menu" aria-labelledby="dropdown05">
-											<li><a class="dropdown-item @@blogGrid" href="blog-grid.php">Blog Grid</a></li>
-											<li><a class="dropdown-item @@blogSidebar" href="blog-sidebar.php">Blog with Sidebar</a></li>
-											<li><a class="dropdown-item @@blogSingle" href="blog-single.php">Blog Single</a></li>
+									<li class="nav-item @@service"><a class="nav-link" href="service.php">Services</a></li>
 
-											<li class="dropdown dropdown-submenu dropleft">
-												<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-												<ul class="dropdown-menu" aria-labelledby="dropdown0501">
-													<li><a class="dropdown-item" href="index.php">Submenu 01</a></li>
-													<li><a class="dropdown-item" href="index.php">Submenu 02</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>
 									<li class="nav-item @@contact"><a class="nav-link" href="missionvission.php">Mission & Vision</a></li>
 									<!-- <li class="nav-item @@blog"><a class="nav-link" href="blog-grid.php">Blogs</a></li> -->
