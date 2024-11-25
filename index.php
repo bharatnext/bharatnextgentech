@@ -83,7 +83,7 @@
 	?>
 
 	<!-- Slider Start -->
-	<section class="slider">
+	<!-- <section class="slider">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 col-md-10">
@@ -95,8 +95,25 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- Section Intro Start -->
+
+	<!-- Slider Start -->
+	<section class="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-md-10">
+					<div class="block">
+						<span class="text-white text-capitalize mb-3 d-block">Prepare for a new future</span>
+						<h1 class="mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
+						<a href="contact.php" class="btn btn-main btn-round-full" aria-label="Get started">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Slider End -->
+
 
 	<section class="section intro">
 		<div class="container">
