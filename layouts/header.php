@@ -5,9 +5,9 @@
 				<div class="row justify-content-between align-items-center">
 					<div class="col-lg-2 col-md-4">
 						<div class="header-top-socials text-center text-lg-left d-none text-md-left">
-							<a href="https://www.facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-							<a href="https://github.com/themefisher/" aria-label="github"><i class="fab fa-github"></i></a>
+							<a href="https://www.facebook.com/bharatnextgentech" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://twitter.com/bharatnextgentech" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+							<a href="https://github.com/bharatnextgentech/" aria-label="github"><i class="fab fa-github"></i></a>
 						</div>
 					</div>
 					<div class="col-lg-10 col-md-8 text-center text-md-right">

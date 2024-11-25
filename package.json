@@ -2,7 +2,7 @@
   "name": "megakit",
   "version": "1.0.0",
   "description": "megakit free multipurpose template",
-  "author": "Themefisher",
+  "author": "bharatnextgentech",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
