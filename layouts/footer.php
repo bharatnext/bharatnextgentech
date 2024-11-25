@@ -19,7 +19,7 @@
 
                     <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="about.php" class="d-none">About</a></li>
-                        
+
                         <li><a href="index.php">Home</a></li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="service.php">Services</a></li>
@@ -61,9 +61,9 @@
                 </div>
                 <div class="col-lg-6 text-left text-lg-right d-none">
                     <ul class="list-inline footer-socials">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
-                        <li class="list-inline-item"><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/bharatnextgentech"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
+                        <li class="list-inline-item"><a href="https://twitter.com/bharatnextgentech"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
+                        <li class="list-inline-item"><a href="https://www.pinterest.com/bharatnextgentech/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
                     </ul>
                 </div>
             </div>

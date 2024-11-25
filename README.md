@@ -1,4 +1,4 @@
-# Megakit By Themefisher
+# Megakit By bharatnextgentech
 
 Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonderful features can be used to enhance the websites of IT firms, digital agencies, and creative professionals.
 
@@ -6,13 +6,13 @@ Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonde
 
 ## Example Site
 
-|       [![](screenshots/homepage.png)](https://demo.themefisher.com/megakit/)       |  [![](screenshots/about.png)](https://demo.themefisher.com/megakit/about.php)   | [![](screenshots/service.png)](https://demo.themefisher.com/megakit/service.php) |
-| :--------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
-|                                    **Homepage**                                    |                                    **About**                                    |                                   **Service**                                    |
-| [![](screenshots/portfolio.png)](https://demo.themefisher.com/megakit/project.php) | [![](screenshots/blog.png)](https://demo.themefisher.com/megakit/blog-grid.php) | [![](screenshots/contact.png)](https://demo.themefisher.com/megakit/contact.php) |
-|                                   **Portfolio**                                    |                                    **Blogs**                                    |                                   **Contact**                                    |
+|       [![](screenshots/homepage.png)](https://demo.bharatnextgentech.com/megakit/)       |  [![](screenshots/about.png)](https://demo.bharatnextgentech.com/megakit/about.php)   | [![](screenshots/service.png)](https://demo.bharatnextgentech.com/megakit/service.php) |
+| :--------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
+|                                       **Homepage**                                       |                                       **About**                                       |                                      **Service**                                       |
+| [![](screenshots/portfolio.png)](https://demo.bharatnextgentech.com/megakit/project.php) | [![](screenshots/blog.png)](https://demo.bharatnextgentech.com/megakit/blog-grid.php) | [![](screenshots/contact.png)](https://demo.bharatnextgentech.com/megakit/contact.php) |
+|                                      **Portfolio**                                       |                                       **Blogs**                                       |                                      **Contact**                                       |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/megakit/)
+👉🏻[View Live Preview](https://demo.bharatnextgentech.com/megakit/)
 
 <!-- pages -->
 
@@ -32,7 +32,7 @@ Megakit is a well-crafted, versatile and unique HTML5 agency template. Its wonde
 
 ## Download And installation
 
-Download this template from [Github](https://github.com/themefisher/megakit/archive/main.zip)
+Download this template from [Github](https://github.com/bharatnextgentech/megakit/archive/main.zip)
 
 <!-- installation -->
 
@@ -83,28 +83,28 @@ npm run build
 
 Now you get a `theme` folder that has all the changes you have made. you can use this folder as your main theme.
 
-👉🏻 [visit documentation](https://docs.themefisher.com/megakit/)
+👉🏻 [visit documentation](https://docs.bharatnextgentech.com/megakit/)
 
 <!-- reporting issue -->
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the Megakit Template. Please Search [existing issues](https://github.com/themefisher/megakit/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/megakit/issues).
+We use GitHub Issues as the official bug tracker for the Megakit Template. Please Search [existing issues](https://github.com/bharatnextgentech/megakit/issues). It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/bharatnextgentech/megakit/issues).
 
 <!-- support -->
 
 ## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](mailto:mehedi@bharatnextgentech.com) instead of opening an issue.
 
 <!-- licence -->
 
 ## License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright (c) 2016 - Present, Designed & Developed by [bharatnextgentech](https://bharatnextgentech.com)
 
-**Code License:** Released under the [MIT](https://github.com/themefisher/megakit/blob/main/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/bharatnextgentech/megakit/blob/main/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
