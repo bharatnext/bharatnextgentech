@@ -82,7 +82,7 @@
 	include('layouts/header.php');
 	?>
 
-	<section class="slider">
+	<section class="slider d-none">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 col-md-10">
