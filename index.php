@@ -23,7 +23,11 @@
 			"description": "BharatNextGenTech provides cutting-edge mobile app development and software solutions for scalable and innovative digital growth.",
 			"address": {
 				"@type": "PostalAddress",
-				"addressCountry": "India"
+				"streetAddress": "Sardar Chowk, opp. Alfa Navodaya, Aanand Nagar",
+				"addressLocality": "Jasdan",
+				"addressRegion": "Gujarat",
+				"postalCode": "360050",
+				"addressCountry": "IN"
 			},
 			"contactPoint": {
 				"@type": "ContactPoint",
@@ -32,10 +36,10 @@
 				"email": "bharatnextgentech@gmail.com"
 			},
 			"sameAs": [
-				"https://www.linkedin.com/company/bharatnextgentech/",
+				"https://www.linkedin.com/company/bharatnextgentech/"
 			],
 			"founder": "BharatNextGenTech",
-			"services": [{
+			"makesOffer": [{
 					"@type": "Service",
 					"name": "Mobile App Development",
 					"description": "Custom mobile applications tailored to your business needs."
@@ -68,6 +72,8 @@
 			]
 		}
 	</script>
+
+
 
 </head>
 
