@@ -81,84 +81,6 @@
 	<?php
 	include('layouts/header.php');
 	?>
-
-	<section class="slider d-none">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-9 col-md-10">
-					<div class="block">
-						<span class="text-white text-capitalize mb-3 d-block">Prepare for a new future</span>
-						<h1 class="mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
-						<a href="contact.php" class="btn btn-main btn-round-full" aria-label="Get started">Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Slider End -->
-
-
-	<section class="section intro">
-		<div class="container">
-			<div class="row ">
-				<div class="col-lg-8">
-					<div class="section-title">
-						<span class="h6 text-color">We are creative & expert people</span>
-						<h2 class="mt-3 content-title">We work with businesses & provide solutions to help clients overcome their business challenges</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-4 col-md-6 col-12">
-					<div class="intro-item mb-5 mb-lg-0">
-						<i class="ti-desktop color-one"></i>
-						<h4 class="mt-4 mb-3">Modern & Responsive Design</h4>
-						<p>We create modern, fully responsive websites that look great on any device, ensuring a seamless user experience.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-12">
-					<div class="intro-item mb-5 mb-lg-0">
-						<i class="ti-desktop color-one"></i>
-						<h4 class="mt-4 mb-3">Innovative & Scalable Design</h4>
-						<p>We deliver cutting-edge, scalable web solutions tailored to meet the unique needs of startups, ensuring flexibility as your business grows.</p>
-					</div>
-				</div>
-
-				<div class="col-lg-4 col-md-12">
-					<div class="intro-item">
-						<i class="ti-layers-alt color-one"></i>
-						<h4 class="mt-4 mb-3">Build Your Website Professionally</h4>
-						<p>We build powerful, feature-rich websites and mobile apps that help businesses grow and engage their audience effectively.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Section Intro END -->
-	<!-- Section About Start -->
-
-	<section class="section about position-relative">
-		<div class="bg-about"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 offset-lg-6 offset-md-0">
-					<div class="about-item ">
-						<span class="h6 text-color">What we are</span>
-						<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
-						<div class="about-content">
-							<h4 class="mb-3 position-relative">We are Perfect Solution</h4>
-							<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping
-								companies to reach their highest level. We optimize business processes, making them easier.</p>
-
-							<a href="#" class="btn btn-main btn-round-full">Get started</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<section class="section service border-top">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -222,6 +144,71 @@
 		</div>
 	</section>
 	<!--  Section Services End -->
+
+	<section class="section about position-relative">
+		<div class="bg-about"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-6 offset-md-0">
+					<div class="about-item ">
+						<span class="h6 text-color">What we are</span>
+						<h2 class="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
+						<div class="about-content">
+							<h4 class="mb-3 position-relative">We are Perfect Solution</h4>
+							<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping
+								companies to reach their highest level. We optimize business processes, making them easier.</p>
+
+							<a href="#" class="btn btn-main btn-round-full">Get started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section intro">
+		<div class="container">
+			<div class="row ">
+				<div class="col-lg-8">
+					<div class="section-title">
+						<span class="h6 text-color">We are creative & expert people</span>
+						<h2 class="mt-3 content-title">We work with businesses & provide solutions to help clients overcome their business challenges</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="intro-item mb-5 mb-lg-0">
+						<i class="ti-desktop color-one"></i>
+						<h4 class="mt-4 mb-3">Modern & Responsive Design</h4>
+						<p>We create modern, fully responsive websites that look great on any device, ensuring a seamless user experience.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="intro-item mb-5 mb-lg-0">
+						<i class="ti-desktop color-one"></i>
+						<h4 class="mt-4 mb-3">Innovative & Scalable Design</h4>
+						<p>We deliver cutting-edge, scalable web solutions tailored to meet the unique needs of startups, ensuring flexibility as your business grows.</p>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-12">
+					<div class="intro-item">
+						<i class="ti-layers-alt color-one"></i>
+						<h4 class="mt-4 mb-3">Build Your Website Professionally</h4>
+						<p>We build powerful, feature-rich websites and mobile apps that help businesses grow and engage their audience effectively.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Section Intro END -->
+	<!-- Section About Start -->
+
+
+
 
 
 	<!-- Section Cta Start -->
