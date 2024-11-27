@@ -1,0 +1,4 @@
+<Files "constant.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
