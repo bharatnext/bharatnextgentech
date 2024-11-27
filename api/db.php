@@ -3,9 +3,9 @@
 include("constant.php");
 if (SERVER_TYPE == "live") {
     $host = 'localhost';
-    $user = 'newuser';
-    $password = 'password';
-    $dbname = 'bharatnextgentech';
+    $user = 'u857855204_bngtusr';
+    $password = 'gjjXh2Ug[';
+    $dbname = 'u857855204_bngtdb';
 } else {
 
     $host = 'localhost';
