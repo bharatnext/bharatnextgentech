@@ -19,9 +19,6 @@
   include('layouts/headscript.php');
   ?>
 
-
-
-
 </head>
 
 <body>
@@ -29,14 +26,16 @@
   <?php
   include('layouts/header.php');
   ?>
-
-  <section class="page-title bg-1">
+  <section class="page-title bg-contactus">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            <span class="text-white">Contact Us</span>
-            <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
+            <h1 class="text-capitalize mb-2 text-lg">Get In Touch</h1>
+            <p class="con-p">Transforming businesses with innovative digital solutions at BharatNextGenTech
+              <br>your partner in mobile
+              apps, websites, and process digitalization
+            </p>
             <ul class="list-inline">
               <li class="list-inline-item"><a href="index.php" class="text-white">Home</a></li>
               <li class="list-inline-item"><span class="text-white">/</span></li>
@@ -48,63 +47,75 @@
     </div>
   </section>
 
-  <!-- contact form start -->
-  <section class="contact-form-wrap section">
+  <section class="container-fluid contactus-form mt-5 ">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 d-none">
-          <form id="contact-form" class="contact__form" method="post" action="index.php">
-            <h3 class="text-md mb-4">Contact Form</h3>
-            <div class="form-group">
-              <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-            </div>
-            <div class="form-group">
-              <input name="email" type="email" class="form-control" placeholder="Email Address" required>
-            </div>
-            <div class="form-group-2 mb-4">
-              <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
-            </div>
-            <button class="btn btn-main" name="submit" type="submit">Send Message</button>
-          </form>
-        </div>
-
-        <div class="col-lg-12 col-sm-12">
-          <div class="contact-content pl-lg-5 mt-5 mt-lg-0">
-            <span class="text-muted">We are Professionals</span>
-            <h2 class="mb-5 mt-2">Don’t Hesitate to contact with us for any kind of information</h2>
-
-            <ul class="address-block list-unstyled">
-              <li>
-                <i class="ti-direction mr-3"></i>Sardar Chowk, Opp. Alfa Training Center, Chitaliya Road, Jasdan:- 360050, Rajkot, Gujarat, India
-              </li>
-              <li>
-                <i class="ti-email mr-3"></i>Email: bharatnextgentech@gmail.com
-              </li>
-              <li>
-                <i class="ti-mobile mr-3"></i>Phone:+91 97247 36947
-              </li>
-            </ul>
-
-            <ul class="social-icons list-inline mt-5 d-none">
-              <li class="list-inline-item">
-                <a href="http://www.bharatnextgentech.com"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="http://www.bharatnextgentech.com"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="http://www.bharatnextgentech.com"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-            </ul>
+      <div class="row justify-content-around">
+        <div class="contact-detail col-12 col-lg-4 pt-4 px-5 ">
+          <div class="mb-5">
+            <h5 class="mt-5">Contact Information</h5>
           </div>
+
+          <a href="tel:+91 97247 36947">
+            <div class="info-call d-flex">
+              <p><i class="fa-solid fa-phone"></i></p>
+              <p>+91 97247 36947</p>
+            </div>
+          </a>
+
+          <a href="mailto:bharatnextgentech@gmail.com">
+            <div class="info-call d-flex">
+              <p><i class="fa-regular fa-envelope"></i></p>
+              <p>bharatnextgentech@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="https://maps.app.goo.gl/oAkkK5PGrjpPjjpi7" target="_blank">
+            <div class="info-call d-flex">
+              <p><i class="fa-solid fa-location-dot"></i></p>
+              <p>Sardar Chowk, <br> Opp. Alfa Training Center, <br> Chitaliya Road, <br>Jasadan 360050, <br>Rajkot,
+                Gujarat,India</p>
+            </div>
+          </a>
+          <div class="contact-shape"></div>
+        </div>
+        <div class="contact-form col-12 col-lg-6 shadow-lg p-3 my-5">
+          <form class="row g-3 mt-4" id="contactForm">
+            <div class="col-12">
+              <label for="Name"></label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+
+
+            <div class="col-12 mt-2 m-auto">
+              <label for="mobile"></label>
+              <input type="number" class="form-control" id="mobile" required placeholder=" +91 99999 00000">
+            </div>
+
+            <div class="col-12">
+              <label for="email"></label>
+              <input type="email" class="form-control" id="email" placeholder="E-mail (optinal)">
+            </div>
+            <div class="col-12 m-auto">
+              <label for="city"></label>
+              <input type="text" class="form-control" id="city" placeholder="Your City">
+            </div>
+
+            <div class="col-12">
+              <label for="message"></label>
+              <input type="text" cols="25" rows="5" class="form-control" id="message"
+                placeholder="Your Message">
+            </div>
+
+            <div class="col-12 form-control" id="responseMessage"></div>
+            <div class="col-12"> <button class="btn btn-primary mt-4 col-12" type="button" id="submitBtn">Submit</button>
+
+
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
-
-  <div class="google-map d-none">
-    <div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/marker.png" data-marker-name="Megakit"></div>
-  </div>
 
   <?php
   include('layouts/footer.php');
@@ -112,6 +123,52 @@
 
   ?>
 
+  <script>
+    document.getElementById('submitBtn').addEventListener('click', function() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const city = document.getElementById('city').value.trim();
+      const mobile = document.getElementById('mobile').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      // Basic validation
+      if (!name || !mobile) {
+        document.getElementById('responseMessage').innerHTML =
+          '<div class="alert alert-danger">All fields are required!</div>';
+        return;
+      }
+
+      // Send AJAX request
+      fetch('api/contact_us_handler.php', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            name,
+            mobile,
+            email,
+            city,
+            message
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.status === 'success') {
+            document.getElementById('responseMessage').innerHTML =
+              '<div class="alert alert-success">' + data.message + '</div>';
+            document.getElementById('contactForm').reset();
+          } else {
+            document.getElementById('responseMessage').innerHTML =
+              '<div class="alert alert-danger">' + data.message + '</div>';
+          }
+        })
+        .catch(error => {
+          document.getElementById('responseMessage').innerHTML =
+            '<div class="alert alert-danger">Something went wrong. Please try again later.</div>';
+        });
+    });
+  </script>
 </body>
 
 </html>
