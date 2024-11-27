@@ -219,11 +219,9 @@ input[type="tel"]:focus {
 }
 
 .bg-gradient {
-  background-image: linear-gradient(
-    145deg,
-    rgba(19, 177, 205, 0.95) 0%,
-    rgba(152, 119, 234, 0.95) 100%
-  );
+  background-image: linear-gradient(145deg,
+      rgba(19, 177, 205, 0.95) 0%,
+      rgba(152, 119, 234, 0.95) 100%);
   background-repeat: repeat-x;
 }
 
@@ -606,8 +604,8 @@ a:focus {
   }
 }
 
-.dropdown-submenu.active > .dropdown-toggle,
-.dropdown-submenu:hover > .dropdown-item,
+.dropdown-submenu.active>.dropdown-toggle,
+.dropdown-submenu:hover>.dropdown-item,
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgb(247, 87, 87);
@@ -642,7 +640,7 @@ ul.dropdown-menu li {
     margin-top: -10px;
   }
 
-  .dropdown:hover > .dropdown-menu {
+  .dropdown:hover>.dropdown-menu {
     visibility: visible;
     transition: all 0.45s ease 0s;
     opacity: 1;
@@ -1138,7 +1136,7 @@ h3.quote::before {
   margin-top: 20px;
 }
 
-.post-comments .media > .pull-left {
+.post-comments .media>.pull-left {
   padding-right: 20px;
 }
 
@@ -1263,7 +1261,7 @@ h3.quote::before {
   margin-right: 20px;
 }
 
-.post-author > img {
+.post-author>img {
   border: 1px solid #dedede;
   max-width: 120px;
   padding: 5px;
@@ -1542,10 +1540,12 @@ h3.quote::before {
   .p-5 {
     padding: 2rem !important;
   }
+
   h1,
   .h1 {
     font-size: 2rem !important;
   }
+
   h2,
   .h2 {
     font-size: 1.3rem;
@@ -1609,3 +1609,67 @@ h3.quote::before {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* contact us page css  */
+.bg-contactus {
+  background: url(../images/bg/home-3.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.con-p{
+  color: #cecece !important;
+  font-size: 1.3rem !important;
+}
+
+.contact-detail {
+  background-color: #222328 !important;
+  border-radius: 0.7rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-detail h2,
+h6,
+h5 {
+  color: #ffffff !important;
+}
+
+.info-call {
+  color: #d3d3d3 !important;
+  gap: 1rem;
+}
+
+.info-call p,
+.contact-detail p {
+  color: #e6e6e6 !important;
+}
+
+.contact-shape {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,29,31,1) 20%, rgba(128,34,35,1) 100%);
+  border-radius: 100%;
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: 10rem;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #000;
+  outline: none;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  border: none !important;
+  /* Adds a rectangular border with blue color */
+  box-shadow: inset;
+  /* Remove default shadow if any */
+  border-bottom: 2px solid #000 !important;
+}
+
+.contact-form button {
+  border-radius: 0.8rem;
+}
