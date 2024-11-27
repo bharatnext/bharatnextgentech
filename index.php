@@ -87,7 +87,7 @@
 				<div class="col-lg-7 text-center">
 					<div class="section-title">
 						<span class="h6 text-color">Our Services</span>
-						<h2 class="mt-3 content-title ">We offer a variety of technical and creative services</h2>
+						<h1 class="mt-3 content-title ">We offer a variety of technical and creative services</h1>
 					</div>
 				</div>
 			</div>
@@ -221,6 +221,7 @@
 						<h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
 						<p class="lead mb-4">Have any project on mind? For immidiate support :</p>
 						<h3><i class="ti-mobile mr-3 text-color"></i>+91 97247 36947</h3>
+						<a href="contact.php" class="btn btn-main btn-round-full ">Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -228,21 +229,6 @@
 	</section>
 
 
-	<section class="mt-70 position-relative">
-		<div class="container">
-			<div class="cta-block-2 bg-gray p-5 rounded border-1">
-				<div class="row justify-content-center align-items-center ">
-					<div class="col-lg-7">
-						<span class="text-color">For Every type business</span>
-						<h2 class="mt-2 mb-4 mb-lg-0">Entrust Your Project to Our Best Team of Professionals</h2>
-					</div>
-					<div class="col-lg-4">
-						<a href="contact.php" class="btn btn-main btn-round-full float-lg-right ">Contact Us</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<?php
 	include('layouts/footer.php');
