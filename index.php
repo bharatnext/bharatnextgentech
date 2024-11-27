@@ -86,7 +86,6 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="section-title">
-						<span class="h6 text-color">Our Services</span>
 						<h1 class="mt-3 content-title ">We offer a variety of technical and creative services</h1>
 					</div>
 				</div>
@@ -96,7 +95,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5">
 						<i class="ti-desktop"></i>
-						<h4 class="mb-3">Laravel Framework</h4>
+						<h2 class="mb-3">Laravel Framework</h2>
 						<p>Expert Laravel development services for building powerful, scalable web applications.</p>
 					</div>
 				</div>
@@ -104,7 +103,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5">
 						<i class="ti-layers"></i>
-						<h4 class="mb-3">PHP </h4>
+						<h2 class="mb-3">PHP </h2>
 						<p>Custom development in PHP frameworks , delivering high-performance backend systems.</p>
 					</div>
 				</div>
@@ -112,7 +111,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5">
 						<i class="ti-bar-chart"></i>
-						<h4 class="mb-3">Logo Design</h4>
+						<h2 class="mb-3">Logo Design</h2>
 						<p>Creative and impactful logo design to represent your brand with a professional look.</p>
 					</div>
 				</div>
@@ -120,7 +119,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5 mb-lg-0">
 						<i class="ti-vector"></i>
-						<h4 class="mb-3">Video Maker</h4>
+						<h2 class="mb-3">Video Maker</h2>
 						<p>High-quality video production services, including custom logos integrated into your videos.</p>
 					</div>
 				</div>
@@ -128,7 +127,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5 mb-lg-0">
 						<i class="ti-android"></i>
-						<h4 class="mb-3">Android Development</h4>
+						<h2 class="mb-3">Android Development</h2>
 						<p>Professional Android app development services to bring your ideas to life on mobile platforms.</p>
 					</div>
 				</div>
@@ -136,7 +135,7 @@
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="service-item mb-5 mb-lg-0">
 						<i class="ti-pencil-alt"></i>
-						<h4 class="mb-3">iOS Development</h4>
+						<h2 class="mb-3">iOS Development</h2>
 						<p>Custom iOS app development to create smooth, feature-rich experiences on Apple devices.</p>
 					</div>
 				</div>
