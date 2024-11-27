@@ -106,7 +106,7 @@
                 placeholder="Your Message">
             </div>
 
-            <div class="col-12 form-control" id="responseMessage"></div>
+            <div class="col-12 " id="responseMessage"></div>
             <div class="col-12"> <button class="btn btn-primary mt-4 col-12" type="button" id="submitBtn">Submit</button>
 
 
