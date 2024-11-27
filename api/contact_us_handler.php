@@ -5,6 +5,8 @@ ini_set('display_startup_errors', 1);
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+echo "Memory usage before processing: " . memory_get_usage() . " bytes\n";
+
 require 'mail/src/Exception.php';
 require 'mail/src/PHPMailer.php';
 require 'mail/src/SMTP.php';
@@ -167,6 +169,7 @@ try {
 
         // Attempt to send the email
         $mail->send();
+        echo "Memory usage after processing: " . memory_get_usage() . " bytes\n";
     } catch (Exception $e) {
         // Catch PHPMailer exceptions and print the error
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
@@ -188,3 +191,5 @@ try {
     }
     $conn->close();
 }
+
+exit;
