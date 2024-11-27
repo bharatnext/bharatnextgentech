@@ -1,4 +1,6 @@
 <?php
+ini_set('memory_limit', '4G'); // Increases memory limit to 4GB
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 
