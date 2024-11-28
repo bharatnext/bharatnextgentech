@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html lang="zxx">
+<html lang="en">
 
 <head>
   <!-- ** Basic Page Needs ** -->
