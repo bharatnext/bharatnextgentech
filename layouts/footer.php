@@ -33,7 +33,7 @@
 
                     <form action="#" class="sub-form">
                         <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-                        <a href="#" class="btn btn-main btn-small">subscribe</a>
+                        <a href="javascript:void(0);" class="btn btn-main btn-small">subscribe</a>
                     </form>
                 </div>
             </div>
