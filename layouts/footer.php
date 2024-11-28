@@ -18,7 +18,6 @@
                     <h4 class="text-capitalize mb-4">Quick Links</h4>
 
                     <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="about.php" class="d-none">About</a></li>
 
                         <li><a href="index.php">Home</a></li>
                         <li><a href="contact.php">Contact</a></li>

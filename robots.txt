@@ -1,6 +1,11 @@
 User-agent: *
-Allow: /'
+Disallow: /nogooglebot/
+
+Allow: /
 Disallow: /api/
 
 
 Sitemap: https://bharatnextgentech.com/sitemap.xml
+
+
+
