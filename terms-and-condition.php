@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 
-<!--
- // WEBSITE: https://bharatnextgentech.com
- // TWITTER: https://twitter.com/bharatnextgentech
- // FACEBOOK: https://www.facebook.com/bharatnextgentech
- // GITHUB: https://github.com/bharatnextgentech/
--->
+
 
 <html lang="zxx">
 
