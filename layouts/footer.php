@@ -8,7 +8,6 @@
                     <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="terms-and-condition.php">Terms & Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                        <li><a href="contact.php">Support</a></li>
 
                     </ul>
                 </div>
