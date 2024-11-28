@@ -1,11 +1,11 @@
 User-agent: *
-Disallow: /nogooglebot/
-
+# Allow all bots unless specifically disallowed
+User-agent: *
 Allow: /
+
+# Block access to specific directories for all bots
+Disallow: /nogooglebot/
 Disallow: /api/
 
-
+# Sitemap for better crawling
 Sitemap: https://bharatnextgentech.com/sitemap.xml
-
-
-
