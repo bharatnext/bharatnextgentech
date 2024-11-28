@@ -40,34 +40,52 @@
 			],
 			"founder": "BharatNextGenTech",
 			"makesOffer": [{
-					"@type": "Service",
-					"name": "Mobile App Development",
-					"description": "Custom mobile applications tailored to your business needs."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Mobile App Development",
+						"description": "Custom mobile applications tailored to your business needs."
+					}
 				},
 				{
-					"@type": "Service",
-					"name": "Website Development",
-					"description": "Modern, fully responsive websites for a seamless user experience."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Website Development",
+						"description": "Modern, fully responsive websites for a seamless user experience."
+					}
 				},
 				{
-					"@type": "Service",
-					"name": "Laravel Framework Development",
-					"description": "Expert Laravel development services for powerful web applications."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Laravel Framework Development",
+						"description": "Expert Laravel development services for powerful web applications."
+					}
 				},
 				{
-					"@type": "Service",
-					"name": "Logo Design",
-					"description": "Professional logo design to enhance brand identity."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Logo Design",
+						"description": "Professional logo design to enhance brand identity."
+					}
 				},
 				{
-					"@type": "Service",
-					"name": "Android Development",
-					"description": "Custom Android app development for innovative mobile solutions."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "Android Development",
+						"description": "Custom Android app development for innovative mobile solutions."
+					}
 				},
 				{
-					"@type": "Service",
-					"name": "iOS Development",
-					"description": "High-quality iOS app development for smooth Apple device experiences."
+					"@type": "Offer",
+					"itemOffered": {
+						"@type": "Service",
+						"name": "iOS Development",
+						"description": "High-quality iOS app development for smooth Apple device experiences."
+					}
 				}
 			]
 		}
