@@ -157,7 +157,7 @@
 							<p class="mb-5">We provide consulting services in the area of IFRS and management reporting, helping
 								companies to reach their highest level. We optimize business processes, making them easier.</p>
 
-							<a href="#" class="btn btn-main btn-round-full">Get started</a>
+							<a href="javascript:void(0);" class="btn btn-main btn-round-full">Get started</a>
 						</div>
 					</div>
 				</div>

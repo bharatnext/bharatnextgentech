@@ -41,13 +41,13 @@
 										<a class="nav-link" href="index.php">Home</a>
 									</li>
 									<li class="nav-item dropdown d-none @@about">
-										<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
+										<a class="nav-link dropdown-toggle" href="javascript:void(0);" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
 										<ul class="dropdown-menu" aria-labelledby="dropdown03">
 											<li><a class="dropdown-item @@company" href="about.php">Our company</a></li>
 											<li><a class="dropdown-item @@pricing" href="pricing.php">Pricing</a></li>
 
 											<li class="dropdown dropdown-submenu dropright">
-												<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+												<a class="dropdown-item dropdown-toggle" href="javascript:void(0);" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
 
 												<ul class="dropdown-menu" aria-labelledby="dropdown0301">
 													<li><a class="dropdown-item" href="index.php">Submenu 01</a></li>
