@@ -35,3 +35,8 @@ $page_url = isset($meta_url) ? $meta_url : "https://bharatnextgentech.com" . $_S
 <meta name="twitter:description" content="<?php echo htmlspecialchars($page_description); ?>">
 <meta name="twitter:image" content="<?php echo htmlspecialchars($page_image); ?>">
 <title><?php echo htmlspecialchars($page_title); ?></title>
+
+<?php
+$canonical_url = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+?>
+<link rel="canonical" href="<?php echo $canonical_url; ?>" />

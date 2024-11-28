@@ -3,13 +3,13 @@
 		<div class="header-top ">
 			<div class="container">
 				<div class="row justify-content-between align-items-center">
-					<div class="col-lg-2 col-md-4">
+					<!-- <div class="col-lg-2 col-md-4">
 						<div class="header-top-socials text-center text-lg-left d-none text-md-left">
 							<a href="https://www.facebook.com/bharatnextgentech" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
 							<a href="https://twitter.com/bharatnextgentech" aria-label="twitter"><i class="fab fa-twitter"></i></a>
 							<a href="https://github.com/bharatnextgentech/" aria-label="github"><i class="fab fa-github"></i></a>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-10 col-md-8 text-center text-md-right">
 						<div class="header-top-info mb-2 mb-md-0">
 							<a href="tel:+91 97247 36947">Call Us : <span>+91 97247 36947</span></a>
@@ -40,22 +40,7 @@
 									<li class="nav-item active">
 										<a class="nav-link" href="index.php">Home</a>
 									</li>
-									<li class="nav-item dropdown d-none @@about">
-										<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i class="fas fa-chevron-down small"></i></a>
-										<ul class="dropdown-menu" aria-labelledby="dropdown03">
-											<li><a class="dropdown-item @@company" href="about.php">Our company</a></li>
-											<li><a class="dropdown-item @@pricing" href="pricing.php">Pricing</a></li>
 
-											<li class="dropdown dropdown-submenu dropright">
-												<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-												<ul class="dropdown-menu" aria-labelledby="dropdown0301">
-													<li><a class="dropdown-item" href="index.php">Submenu 01</a></li>
-													<li><a class="dropdown-item" href="index.php">Submenu 02</a></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
 									<li class="nav-item @@service"><a class="nav-link" href="service.php">Services</a></li>
 
 									<li class="nav-item @@contact"><a class="nav-link" href="contact.php">Contact</a></li>

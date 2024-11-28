@@ -1,0 +1,8 @@
+#redirect http non-www to https://www
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.)?bharatnextgentech\.com$
+RewriteRule (.*) https://www.bharatnextgentech.com/$1 [R=301,L]
+#redirect https non-www to www
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^bharatnextgentech\.com$
+RewriteRule (.*) https://www.bharatnextgentech.com/$1 [R=301,L]

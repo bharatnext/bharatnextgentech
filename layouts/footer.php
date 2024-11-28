@@ -8,7 +8,6 @@
                     <ul class="list-unstyled footer-menu lh-35">
                         <li><a href="terms-and-condition.php">Terms & Conditions</a></li>
                         <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                        <li><a href="contact.php">Support</a></li>
 
                     </ul>
                 </div>
@@ -18,7 +17,6 @@
                     <h4 class="text-capitalize mb-4">Quick Links</h4>
 
                     <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="about.php" class="d-none">About</a></li>
 
                         <li><a href="index.php">Home</a></li>
                         <li><a href="contact.php">Contact</a></li>
@@ -34,7 +32,7 @@
 
                     <form action="#" class="sub-form">
                         <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-                        <a href="#" class="btn btn-main btn-small">subscribe</a>
+                        <a href="javascript:void(0);" class="btn btn-main btn-small">subscribe</a>
                     </form>
                 </div>
             </div>

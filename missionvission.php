@@ -8,7 +8,6 @@
     $meta_keywords = "mission BharatNextGenTech, vision BharatNextGenTech, digital transformation, empowering small businesses, custom app solutions, website development";
     include('layouts/headscript.php');
     ?>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
