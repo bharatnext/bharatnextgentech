@@ -1,8 +1,8 @@
 <?php
 // Default values (fallback for pages without specific meta data)
 $default_title = "BharatNextGenTech | Innovative Mobile & App Development Services";
-$default_description = "BharatNextGenTech provides cutting-edge mobile app development and software solutions for scalable and innovative digital growth.";
-$default_keywords = "custom app development, enterprise software, scalable digital solutions, tech consulting";
+$default_description = "BharatNextGenTech provides custom websites for small businesses and app development and software solutions for scalable and innovative digital growth.";
+$default_keywords = "custom websites for small businesses ,custom app for small business , build app for small business ,custom app development, enterprise software, scalable digital solutions, tech consulting";
 $default_image = "images/bg/banner.jpeg";
 
 // Use page-specific variables if set, otherwise fallback to default
