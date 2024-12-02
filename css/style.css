@@ -1646,6 +1646,13 @@ h5 {
   color: #e6e6e6 !important;
 }
 
+
+.info-call button {
+background-color: #c54041;
+margin-top: -1rem;
+border-radius: 0.4rem;
+margin-left:1.5rem;
+}
 .contact-shape {
   width: 100%;
   height: 100%;
@@ -1675,4 +1682,5 @@ h5 {
 
 .contact-form button {
   border-radius: 0.8rem;
+  background-color: #222328;
 }

@@ -63,26 +63,27 @@
                             <p>bharatnextgentech@gmail.com</p>
                         </div>
                     </a>
-
+                    <div class="info-call d-flex">
+                        <p><i class="fa-solid fa-location-dot"></i></p>
+                        <p>Sardar Chowk, <br> Opp. Alfa Training Center, <br> Chitaliya Road, <br>Jasadan 360050,
+                            <br>Rajkot,
+                            Gujarat,India
+                        </p>
+                    </div>
                     <a href="https://maps.app.goo.gl/oAkkK5PGrjpPjjpi7" target="_blank">
-                        <div class="info-call d-flex">
-                            <p><i class="fa-solid fa-location-dot"></i></p>
-                            <p>Sardar Chowk, <br> Opp. Alfa Training Center, <br> Chitaliya Road, <br>Jasadan 360050,
-                                <br>Rajkot,
-                                Gujarat,India</p>
+                        <div class="info-call my-2 mb-sm-5 mb-lg-5"> <button class=" btn btn-main p-2 ms-4" type="button" id="submitBtn">  <i class="fa-solid fa-location-dot"></i> &nbsp;Get
+                                Direction</button>
                         </div>
                     </a>
                     <div class="contact-shape"></div>
                 </div>
-                <div class="contact-form col-12 col-lg-6 shadow-lg p-3 my-5">
+                <div class="contact-form col-12 col-lg-6 shadow-lg p-3 mt-5">
                     <form class="row g-3 mt-4" id="contactForm">
                         <div class="col-12">
                             <label for="Name"></label>
                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                         </div>
-
-
-                        <div class="col-12 mt-2 m-auto">
+                        <div class="col-12 mt-1 m-auto">
                             <label for="mobile"></label>
                             <input type="number" class="form-control" id="mobile" required
                                 placeholder=" +91 99999 00000">
@@ -104,7 +105,7 @@
                         </div>
 
                         <div class="col-12 " id="responseMessage"></div>
-                        <div class="col-12"> <button class="btn btn-primary mt-4 col-12" type="button"
+                        <div class="col-12"> <button class="btn btn-main mt-4 col-12" type="button"
                                 id="submitBtn">Submit</button>
                         </div>
                     </form>
