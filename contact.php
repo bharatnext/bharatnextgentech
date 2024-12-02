@@ -8,19 +8,19 @@
 <head>
 
     <?php
-  $meta_title = "Contact Us | BharatNextGenTech - Let's Connect";
-  $meta_description = "Get in touch with BharatNextGenTech for inquiries, support, or collaborations. Reach out to our team for innovative mobile app solutions and professional guidance.";
-  $meta_keywords = "contact BharatNextGenTech, get in touch, mobile app solutions, tech support, professional collaboration, contact details BharatNextGenTech";
-  include('layouts/headscript.php');
-  ?>
+    $meta_title = "Contact Us | BharatNextGenTech - Let's Connect";
+    $meta_description = "Get in touch with BharatNextGenTech for inquiries, support, or collaborations. Reach out to our team for innovative mobile app solutions and professional guidance.";
+    $meta_keywords = "contact BharatNextGenTech, get in touch, mobile app solutions, tech support, professional collaboration, contact details BharatNextGenTech";
+    include('layouts/headscript.php');
+    ?>
 
 </head>
 
 <body>
 
     <?php
-  include('layouts/header.php');
-  ?>
+    include('layouts/header.php');
+    ?>
     <section class="page-title bg-contactus">
         <div class="container">
             <div class="row">
@@ -71,7 +71,7 @@
                         </p>
                     </div>
                     <a href="https://maps.app.goo.gl/oAkkK5PGrjpPjjpi7" target="_blank">
-                        <div class="info-call my-2 mb-sm-5 mb-lg-5"> <button class=" btn btn-main p-2 ms-4" type="button" id="submitBtn">  <i class="fa-solid fa-location-dot"></i> &nbsp;Get
+                        <div class="info-call my-2 mb-sm-5 mb-lg-5"> <button class=" btn btn-main p-2 ms-4" type="button" id="submitBtn1"> <i class="fa-solid fa-location-dot"></i> &nbsp;Get
                                 Direction</button>
                         </div>
                     </a>
@@ -115,56 +115,56 @@
     </section>
 
     <?php
-  include('layouts/footer.php');
-  include('layouts/footscript.php');
+    include('layouts/footer.php');
+    include('layouts/footscript.php');
 
-  ?>
+    ?>
 
     <script>
-    document.getElementById('submitBtn').addEventListener('click', function() {
-        const name = document.getElementById('name').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const city = document.getElementById('city').value.trim();
-        const mobile = document.getElementById('mobile').value.trim();
-        const message = document.getElementById('message').value.trim();
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const city = document.getElementById('city').value.trim();
+            const mobile = document.getElementById('mobile').value.trim();
+            const message = document.getElementById('message').value.trim();
 
-        // Basic validation
-        if (!name || !mobile) {
-            document.getElementById('responseMessage').innerHTML =
-                '<div class="alert alert-danger">All fields are required!</div>';
-            return;
-        }
-
-        // Send AJAX request
-        fetch('api/contact_us_handler.php', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    name,
-                    mobile,
-                    email,
-                    city,
-                    message
-                })
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    document.getElementById('responseMessage').innerHTML =
-                        '<div class="alert alert-success">' + data.message + '</div>';
-                    document.getElementById('contactForm').reset();
-                } else {
-                    document.getElementById('responseMessage').innerHTML =
-                        '<div class="alert alert-danger">' + data.message + '</div>';
-                }
-            })
-            .catch(error => {
+            // Basic validation
+            if (!name || !mobile) {
                 document.getElementById('responseMessage').innerHTML =
-                    '<div class="alert alert-danger">Something went wrong. Please try again later.</div>';
-            });
-    });
+                    '<div class="alert alert-danger">All fields are required!</div>';
+                return;
+            }
+
+            // Send AJAX request
+            fetch('api/contact_us_handler.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name,
+                        mobile,
+                        email,
+                        city,
+                        message
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        document.getElementById('responseMessage').innerHTML =
+                            '<div class="alert alert-success">' + data.message + '</div>';
+                        document.getElementById('contactForm').reset();
+                    } else {
+                        document.getElementById('responseMessage').innerHTML =
+                            '<div class="alert alert-danger">' + data.message + '</div>';
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('responseMessage').innerHTML =
+                        '<div class="alert alert-danger">Something went wrong. Please try again later.</div>';
+                });
+        });
     </script>
 </body>
 
