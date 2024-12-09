@@ -25,17 +25,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3  col-md-6 col-sm-6 mx-auto d-none">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Subscribe Us</h4>
-                    <p>Subscribe to get latest news article and resources </p>
-
-                    <form action="#" class="sub-form">
-                        <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-                        <a href="javascript:void(0);" class="btn btn-main btn-small">subscribe</a>
-                    </form>
-                </div>
-            </div>
 
             <div class="col-lg-3 col-sm-6">
                 <div class="widget">
