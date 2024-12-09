@@ -36,7 +36,10 @@
 
             <h2>1. Definitions</h2>
             <ul>
-                <li><strong>"Company"</strong> refers to <strong>BharatNextGenTech</strong>, a software development company located at [Your Address].</li>
+                <li><strong>"Company"</strong> refers to <strong>BharatNextGenTech</strong>, a software development company located at <p>Sardar Chowk, <br> Opp. Alfa Training Center, <br> Chitaliya Road, <br>Jasadan 360050,
+                        <br>Rajkot,
+                        Gujarat,India
+                    </p>.</li>
                 <li><strong>"Client"</strong> refers to the person or entity receiving services from the Company.</li>
                 <li><strong>"Services"</strong> refers to software development, mobile app development, web design, and other related services provided by the Company.</li>
                 <li><strong>"Agreement"</strong> refers to the legally binding contract between the Company and the Client, including these Terms and Conditions.</li>
@@ -106,8 +109,6 @@
                 <li>The Company will deliver all completed work to the Client upon final payment.</li>
             </ul>
 
-            <h2>11. Governing Law</h2>
-            <p>These Terms and Conditions shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law principles. Any legal action arising out of or related to these Terms shall be brought exclusively in the courts located in [Your Jurisdiction].</p>
 
             <h2>12. Amendments</h2>
             <p>The Company reserves the right to modify these Terms and Conditions at any time. Any changes will be effective immediately upon posting on our website. It is the Client's responsibility to review these terms regularly.</p>
