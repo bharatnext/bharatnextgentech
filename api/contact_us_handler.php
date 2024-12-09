@@ -70,6 +70,7 @@ try {
         'message' => 'Your enquiry has been saved successfully'
     ]);
     try {
+
         $mail = new PHPMailer(true);
 
         // SMTP configuration
@@ -167,9 +168,16 @@ try {
             </html>
         ";
 
+        if (IS_MAIL_ENABLED == "1") {
+
+            $mail->send();
+        }
 
         // Attempt to send the email
-        $mail->send();
+
+
+
+
     } catch (Exception $e) {
         // Catch PHPMailer exceptions and print the error
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
