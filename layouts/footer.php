@@ -41,16 +41,19 @@
 
         <div class="footer-btm pt-4">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center text-lg-left">
                     <div class="copyright">
                         Copyright &copy; Designed &amp; Developed by BharatNextGenTech.
                     </div>
                 </div>
-                <div class="col-lg-6 text-left text-lg-right d-none">
+                <div class="col-lg-6 text-center text-lg-right">
                     <ul class="list-inline footer-socials">
-                        <li class="list-inline-item"><a href="https://www.facebook.com/bharatnextgentech"><i class="fab fa-facebook-f mr-2"></i>Facebook</a></li>
-                        <li class="list-inline-item"><a href="https://twitter.com/bharatnextgentech"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
-                        <li class="list-inline-item"><a href="https://www.pinterest.com/bharatnextgentech/"><i class="fab fa-pinterest-p mr-2 "></i>Pinterest</a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/bharatnextgentech/"
+                                target="_blank"><i class="fab fa-linkedin mr-2 "></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/bharatnextgentech/"
+                                target="_blank"><i class="fab fa-instagram mr-2"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61569310418439"
+                                target="_blank"><i class="fab fa-facebook-f mr-2"></i></a></li>
                     </ul>
                 </div>
             </div>
