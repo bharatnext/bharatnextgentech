@@ -40,6 +40,9 @@
 									<li class="nav-item active">
 										<a class="nav-link" href="index.php">Home</a>
 									</li>
+									<li class="nav-item active">
+										<a class="nav-link" href="pricing.php">Pricing</a>
+									</li>
 
 									<li class="nav-item @@service"><a class="nav-link" href="service.php">Services</a></li>
 
