@@ -40,7 +40,7 @@
 									<li class="nav-item active">
 										<a class="nav-link" href="index.php">Home</a>
 									</li>
-									<li class="nav-item active">
+									<li class="nav-item ">
 										<a class="nav-link" href="pricing.php">Pricing</a>
 									</li>
 
