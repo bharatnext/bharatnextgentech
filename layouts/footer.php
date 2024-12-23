@@ -65,3 +65,130 @@
 <div id="scroll-to-top" class="scroll-to-top">
     <span class="icon fa fa-angle-up"></span>
 </div>
+
+<!-- model of contact us  -->
+
+
+
+
+
+<!-- Modal -->
+<div class="modal " id="contactModel" tabindex="-1" aria-labelledby="contactModelLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">Contact Us</h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-around">
+
+                        <form class="row g-3" id="contactForm">
+                            <div class="col-12">
+                                <label for="Name"></label>
+                                <input type="text" class="form-control" id="name1" placeholder="Your Name">
+                            </div>
+                            <div class="col-12 mt-1 m-auto">
+                                <label for="mobile"></label>
+                                <input type="number" class="form-control" id="mobile1" required
+                                    placeholder=" +91 99999 00000">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="email"></label>
+                                <input type="email" class="form-control" id="email1" placeholder="E-mail (optinal)">
+                            </div>
+                            <div class="col-12 m-auto">
+                                <label for="city"></label>
+                                <input type="text" class="form-control" id="city1" placeholder="Your City">
+                            </div>
+
+                            <div class="col-12">
+                                <label for="message"></label>
+                                <input type="text" cols="25" rows="5" class="form-control" id="message1"
+                                    placeholder="Your Message">
+                            </div>
+
+                            <div class="col-12 " id="responseMessage"></div>
+                            <div class="col-12"> <button class="btn btn-main mt-4 col-12" type="button"
+                                    id="submitBtn1">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    // Check if the modal has already been shown during this session
+    if (!sessionStorage.getItem('modalShown')) {
+
+        var myModal = new bootstrap.Modal(document.getElementById('contactModel'));
+
+        // Show the modal after a delay (5 seconds here)
+        setTimeout(() => {
+            myModal.show();
+
+            // Store that the modal has been shown for the current session
+            sessionStorage.setItem('modalShown', 'true');
+        }, 5000);
+    }
+});
+</script>
+
+<script>
+document.getElementById('submitBtn1').addEventListener('click', function() {
+    const name = document.getElementById('name1').value.trim();
+    const email = document.getElementById('email1').value.trim();
+    const city = document.getElementById('city1').value.trim();
+    const mobile = document.getElementById('mobile1').value.trim();
+    const message = document.getElementById('message1').value.trim();
+
+    // Basic validation
+    if (!name || !mobile) {
+        document.getElementById('responseMessage').innerHTML =
+            '<div class="alert alert-danger">All fields are required!</div>';
+        return;
+    }
+
+    // Send AJAX request
+    fetch('api/contact_us_handler.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name,
+                mobile,
+                email,
+                city,
+                message
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                document.getElementById('responseMessage').innerHTML =
+                    '<div class="alert alert-success">' + data.message + '</div>';
+                document.getElementById('contactForm').reset();
+            } else {
+                document.getElementById('responseMessage').innerHTML =
+                    '<div class="alert alert-danger">' + data.message + '</div>';
+            }
+        })
+        .catch(error => {
+            document.getElementById('responseMessage').innerHTML =
+                '<div class="alert alert-danger">Something went wrong. Please try again later.</div>';
+        });
+});
+</script>
