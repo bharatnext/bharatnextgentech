@@ -101,10 +101,15 @@
 	?>
 	<section class="section service border-top">
 		<div class="container">
+			<link rel="preload" href="plugins/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
 			<div class="row justify-content-center">
 				<div class="col-lg-7 text-center">
 					<div class="section-title">
-						<h1 class="mt-3 content-title ">We offer a variety of technical and creative services</h1>
+						<h1 class="mt-3 content-title" style="font-family: 'PreloadedFont', sans-serif;">
+							We offer a variety of technical and creative services
+						</h1>
+
 					</div>
 				</div>
 			</div>
