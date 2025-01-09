@@ -136,7 +136,7 @@
                         <div class="card-header">
                             <div class="pricing-header mb-5">
                                 <h4 class="font-weight-normal mb-3">Basic Plan</h4>
-                                <h1>Rs.9999</h1>
+                                <h1>Rs.9,999</h1>
                                 <p class="text-muted">Suitable for startups and individuals</p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                         <div class="card-header">
                             <div class="pricing-header mb-5">
                                 <h4 class="font-weight-normal mb-3">Standard Plan</h4>
-                                <h1>Rs.29999</h1>
+                                <h1>Rs.29,999</h1>
                                 <p class="text-muted">For small-to-medium businesses</p>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                         <div class="card-header">
                             <div class="pricing-header mb-5">
                                 <h4 class="font-weight-normal mb-3">Premium Plan</h4>
-                                <h1>&nbsp;</h1>
+                                <h1>Rs.50,000+</h1>
                                 <p class="text-muted">For businesses with advanced needs</p>
                             </div>
                         </div>
