@@ -169,7 +169,7 @@
                             <ul class="list-unstyled lh-45 mt-3 text-black">
                                 <li>- Website: Unlimited pages or advanced e-commerce.</li>
                                 <li>- App: Cross-platform app with advanced features.</li>
-                                <li>- 6 months of dedicated support and updates.</li>
+                                <li>- 3 months of dedicated support and updates.</li>
                             </ul>
                         </div>
                         <div class="card-footer">
@@ -193,7 +193,7 @@
                                 <li>- Website: Up to 15 pages or an e-commerce setup.</li>
                                 <li>- App: Basic Android/iOS app with essential features.</li>
                                 <li>- Enhanced SEO and analytics setup.</li>
-                                <li>- 3 months of support and updates.</li>
+                                <li>- 6 months of support and updates.</li>
                             </ul>
                         </div>
                         <div class="card-footer">
