@@ -132,16 +132,18 @@
 
         // Check if the modal has already been shown during this session
         if (!sessionStorage.getItem('modalShown')) {
+            if (window.location.hostname !== 'localhost') {
 
-            var myModal = new bootstrap.Modal(document.getElementById('contactModel'));
+                var myModal = new bootstrap.Modal(document.getElementById('contactModel'));
 
-            // Show the modal after a delay (5 seconds here)
-            setTimeout(() => {
-                myModal.show();
+                // Show the modal after a delay (5 seconds here)
+                setTimeout(() => {
+                    myModal.show();
 
-                // Store that the modal has been shown for the current session
-                sessionStorage.setItem('modalShown', 'true');
-            }, 8000);
+                    // Store that the modal has been shown for the current session
+                    sessionStorage.setItem('modalShown', 'true');
+                }, 5000);
+            }
         }
     });
 </script>
